@@ -1,5 +1,8 @@
 # wheres_waldo
 
+## Members:
+Michael Cho, Josh Kim, Vicky Li, Preetika Srivastava @ IBM
+
 ## Training
 
 The training directory provides all the tools to train an object detection model based on where's waldo images. 
@@ -38,3 +41,7 @@ Link to app - http://146.148.91.238/
 6. frozen_inference_graph.pb - new graph produced at end of wheres_waldo notebook
 7. waldo_detector.py - app logic that includes 
 
+## Resource Links:
+https://github.com/tadejmagajna/HereIsWally/tree/master/object_detection
+https://www.youtube.com/c/AIEngineeringLife/videos
+search for Kubernetes and Streamlit
