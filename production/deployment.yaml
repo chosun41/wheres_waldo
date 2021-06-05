@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: waldo-detector
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: waldo_detector
+  template:
+    metadata:
+      labels:
+        app: waldo_detector
+    spec:
+      containers:
+      - name: cv-app
+        image: gcr.io/mc-project-307703/waldo_detector
+        ports:
+        - containerPort: 8501
