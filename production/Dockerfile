@@ -22,4 +22,4 @@ RUN python -m pip install .
 WORKDIR ../..
 
 # Run the streamlit on container startup
-CMD [ "streamlit", "run","waldo_detector.py" ]
+CMD [ "streamlit", "run","--server.enableCORS","false","waldo_detector.py" ]

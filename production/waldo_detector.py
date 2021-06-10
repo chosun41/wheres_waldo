@@ -4,6 +4,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 import numpy as np
 import tensorflow as tf
 import streamlit as st
+st.write(st.config.get_option("server.enableCORS"))
 from matplotlib import pyplot as plt
 import matplotlib
 import matplotlib.patches as patches
