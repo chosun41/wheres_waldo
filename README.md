@@ -24,6 +24,8 @@ as well as explicitly importing other libraries. Upload the zips files to google
 from export inference graph will produce a new frozen_inference_graph.pb in your new_checkpoint directory that you will then use as a standalone
 file for production.
 
+If you want to skip retraining and move on to production. You can download the docker image via docker pull chosun41/wheres_waldo
+
 ## Production
 
 ### App:
