@@ -41,7 +41,7 @@ Link to app - http://146.148.91.238/
 4. requirements.txt - python packages that are called in the Dockerfile
 5. labels.txt - label for waldo
 6. frozen_inference_graph.pb - new graph produced at end of wheres_waldo notebook
-7. waldo_detector.py - app logic that includes 
+7. waldo_detector.py - app logic that includes streamlit as well as tensorflow inferencing
 
 ## Resource Links:
 https://github.com/tadejmagajna/HereIsWally/tree/master/object_detection
