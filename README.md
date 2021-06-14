@@ -34,6 +34,8 @@ and the app will return if it can detect waldo in the image and the coordinates 
 
 Link to app - http://146.148.91.238/
 
+* The link is currently offline because of GCP costs. Please contact us if you want to look at it briefly.
+
 ### Description of files:
 1. deployment.yaml - deployment config for app on kubernetes
 2. service.yaml - service config to expose app to internet on kubernetes
